@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Computer Quiz</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Computer Quiz</h1>
+
+        <div class="main">
+            <h6 class="question">Question <span id="currentQue">1</span> / <span id="totalQue">10</span></h6>
+
+            <h2 id="displayQue" class="displayQue"></h2>
+
+            <div class="optDiv" id="optionsParent">
+                <button class="btnO"></button>
+                <button class="btnO"></button>
+                <button class="btnO"></button>
+                <button class="btnO"></button>
+            </div>
+            <button onclick="nextQue()" class="btn">Next</button>
+            
+
+        </div>
+    </div>
+
+<script src="app.js"></script>
+</body>
+</html>
